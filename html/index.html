@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Pepsi</title>
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="../png/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Logistics</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What<br><span>I like</span></h2>
+                <p>Each Pepsi bottle provides instant refreshment with its unique flavour and unique carbonated structure. Whether you get together with your friends or want to relax after a busy day, Pepsi is always with you.
+                Pepsi is here to offer more for you with its flavour and freshness. Choose Pepsi to make every moment more special and unforgettable. Live your life to the fullest with Pepsi!</p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="../png/pepsi001.png" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="../png/pepsi001.png" onclick="imgSlider('../png/pepsi001.png'); changeBgColor('#0062be')"></li>
+            <li><img src="../png/pepsi002.png" onclick="imgSlider('../png/pepsi002.png'); changeBgColor('#e60c2c')"></li>
+            <li><img src="../png/pepsi003.png" onclick="imgSlider('../png/pepsi003.png'); changeBgColor('#1e1e1e')"></li>
+        </ul>
+    </section>
+    <script src="../js/app.js"></script>
+</body>
+</html>
